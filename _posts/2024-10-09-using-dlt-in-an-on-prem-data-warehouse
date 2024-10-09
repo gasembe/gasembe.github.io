@@ -1,4 +1,5 @@
 ## Using dlt for Extraction and Load in Your Data Warehouse
+
 I was recently engaged in a project at a clients site that required porting one data mart from oracle to Microsoft SQL server. First a little background, 
 the client currently runs an on-prem oracle analytics platform. The entire datawarehouse implementation is based on oracle business intelligence stack 
 and set of tools. 
