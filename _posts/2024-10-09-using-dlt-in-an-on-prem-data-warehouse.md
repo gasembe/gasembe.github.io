@@ -20,3 +20,5 @@ Given that the subject area implementation was in place in the Oracle data wareh
 * Use microsoft data migration assistant for oracle tool to migrate the data mart from Oracle to SQL server
 
 Option 1 was going to take longer to implement, it would involve actual development effort. Option 2 seemed viable, but the only problem for me was, it's a new tool I had not used before. It meant I needed to learn how to use it, experiment with it before i could use it for the POC, I didnt have that time!.
+
+How about i write a custom python program to move the data mart from Oracle to MSSQL, I thought. As Opened my scratch pad and started solutioning, I discovered what a mountain of a task this was going to be. I was going to utilize SQLAlchemy and ORM to reverse engineer the oracle objects for MSSQL. Surely I can not be the first person to face such a problem!, I decided to do a web search on pyhon ETL libraries and Viola! bumped into dlthub. 
