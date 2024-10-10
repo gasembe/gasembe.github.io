@@ -1,10 +1,7 @@
 ## Using dlt for Extraction and Load in Your Data Warehouse
 
 I was recently engaged in a project at a clients site that required porting one data mart from oracle to Microsoft SQL server. First a little background, 
-the client currently runs an on-prem oracle analytics platform. The entire datawarehouse implementation is based on oracle business intelligence stack 
-and set of tools. 
+the client currently runs an on-prem oracle analytics platform. The entire datawarehouse implementation is based on oracle business intelligence stack and set of tools. 
 
-For some reasons the business felt that the oracle platform was not serving their needs and were contemplating on replacing their datawarehouse platform 
-with Microsoft Power BI server. However before arriving such a decision the client needed a POC for one of their foundational usecase data-mart on Microsoft 
-Power BI server. They wanted to run the two on-prem business intelligence platforms in parallel to decide on which platform serves their business intelligence 
-needs better.
+For some reasons the business felt that the oracle platform was not serving their needs and cited issues to do with reports dashbords performance, visualization aesthetics among others. The client was thefore contemplating on replacing their oracle datawarehouse platform with Microsoft Power BI server, which is an onprem versio of the cloud microsoft power BI service. However before arriving such a decision the client needed a POC for one of their foundational usecases data-mart on Microsoft 
+Power BI server. They wanted to run the two on-prem business intelligence platforms in parallel to decide on which platform serves their business intelligence needs better.
