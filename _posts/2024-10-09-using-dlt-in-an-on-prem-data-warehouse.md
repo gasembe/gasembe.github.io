@@ -1,10 +1,10 @@
 ## Using dlt for Extraction and Load in Your Data Warehouse
 
-I was recently engaged in a project at a clients site that required porting one data mart from oracle to Microsoft SQL server. First a little background, 
-the client currently runs an on-prem oracle analytics platform. The entire datawarehouse implementation is based on oracle business intelligence stack and set of tools. 
+Ever wondered how you can move an entire database or a set of database objects from one database platform to another. For example Oracle to SQL server, SQL server to PostgreSQL or MySQL to Oracle, without recreating the source database and its objects in the destination database system?. 
 
-For some reasons the business felt that the oracle platform was not serving their needs and cited issues to do with reports dashbords performance, visualization aesthetics among others. The client was thefore contemplating on replacing their oracle datawarehouse platform with Microsoft Power BI server, which is an onprem versio of the cloud microsoft power BI service. However before arriving such a decision the client needed a POC for one of their foundational usecases data-mart on Microsoft 
-Power BI server. They wanted to run the two on-prem business intelligence platforms in parallel to decide on which platform serves their business intelligence needs better. They needed the Power BI server up and running as soon as possible.
+I was recently engaged in a project at a client's site that required porting analytics data mart from Oracle to Microsoft SQL server. You might be wondering why this was necessary, so first some background. The client had an on-prem oracle data warehouse and analytics platform, meaning the entire implementation was based on oracle business intelligence stack(Oracle DB, ODI, OAS) running on oracle engineered system hardware.
+
+For some reasons the business felt that the oracle platform was not serving their needs and cited issues to do with reports dashbords performance, visualization aesthetics among others. The client was thefore contemplating on replacing their oracle datawarehouse platform with Microsoft Power BI server, an onprem version of the cloud/Azure microsoft power BI service. However before  arriving such a decision the client needed a POC for one of their foundational use-cases subject area data mart implemented on Microsoft Power BI server to help them make a decision on wether to make the shift or not. They wanted to run the two on-prem business intelligence platforms in parallel to decide on which platform serves their business intelligence needs better. They needed the Power BI server up and running as soon as possible.
 
 ### PROBLEM
 
