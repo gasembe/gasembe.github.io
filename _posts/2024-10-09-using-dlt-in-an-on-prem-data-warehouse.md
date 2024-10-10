@@ -2,11 +2,12 @@
 
 Ever wondered how you can move an entire database or a set of database objects from one database platform to another. For example Oracle to SQL server, SQL server to PostgreSQL or MySQL to Oracle, without recreating the source database and its objects in the destination database system?. 
 
-I was recently engaged in a project at a client's site that required porting analytics data mart from Oracle to Microsoft SQL server. You might be wondering why this was necessary, so first some background. The client had an on-prem oracle data warehouse and analytics platform, meaning the entire implementation was based on oracle business intelligence stack(Oracle data warehouse, ODI, OAS) running on oracle engineered systems hardware.
+I was recently engaged in a project at a client's site that required porting analytics data mart from Oracle to Microsoft SQL server. You might be wondering why this was necessary, so first some background. 
 
-For some reasons the business felt that the oracle platform was not serving their needs and cited issues ranging from reports performance, visualization aesthetics among others. They were thefore contemplating on replacing their oracle analytics platform with Microsoft Power BI server, an onprem version of the cloud/Azure microsoft power BI service. However before arriving such a decision they needed to explore the capabilities of Power BI server and decided a POC using one of their foundational use-cases subject area data mart would be the desired approach.
+### THE BUSINESS CASE
+The client had an on-prem oracle data warehouse and analytics platform, meaning the entire implementation was based on oracle business intelligence stack(Oracle data warehouse, ODI, OAS) running on oracle engineered systems hardware.
 
-implemented on Microsoft Power BI server to help them make a decision on wether to make the shift or not. They wanted to run the two on-prem business intelligence platforms in parallel to decide on which platform serves their business intelligence needs better. They needed the Power BI server up and running as soon as possible.
+For some reasons the business felt that the oracle platform was not serving their BI needs and cited issues ranging from reports performance, visualization aesthetics among others. They were thefore contemplating on replacing their oracle analytics platform with Microsoft Power BI server, an on-premise version of the Microsoft Azure Power BI service. However before arriving on such a decision they needed to explore the capabilities of Power BI server. We decided a POC using one of their foundational use-cases subject area data mart would be the best approach. They would therefore run the two on-prem business intelligence platforms in parallel to decide on which platform best serves their business intelligence needs better. Since consultants are somewhat perceived to be magicians they needed the Power BI server up and running as soon as possible.
 
 ### PROBLEM
 
