@@ -12,6 +12,9 @@ AS the consultant my task was to set up the Power BI server on prem, develop the
 It is estimated that in a datawarehouse project 70% of development time goes into ETL development. Given that the subject area 
 implementation was in place in the Oracle datawarehouse and I didnt have the luxery of time, redeveloping the datamart in SQL server was not going to be a good spend of my time. The question I needed to answer thefore was "How do move/port the subject area datamart from oracle to MS SQL server with minimal development effort and delover the POC on time". Some of the approaches in considerations were
 <ul>
-<i>Create the required data mart objects for the subject area in SQL server, then use Oracle data integrator to develop ETL package to load the fact and dimensions from oracle datawarehouse to SQL server.</i>
-<i>Use microsoft data migration assistant tool to migrate the data mart from Oracle to SQL server</i>
+  <i>Create the required data mart objects for the subject area in SQL server, then use Oracle data integrator to develop   
+     ETL package to load the fact and dimensions from oracle datawarehouse to SQL server.</i>
+  <i>Use microsoft data migration assistant for oracle tool to migrate the data mart from Oracle to SQL server</i>
 </ul>
+
+Option 1 was going to take longer to implement given that it involved actual development effort. Option 2 seemed viable, but the only problem for me was, it's a new tool I had not used before therefore i needed to learn how to use it, experiment before i could use it for the POC, I didnt have that time!.
