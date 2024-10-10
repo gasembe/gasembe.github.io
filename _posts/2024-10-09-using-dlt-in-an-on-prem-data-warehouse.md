@@ -19,4 +19,4 @@ Given that the subject area implementation was in place in the Oracle data wareh
      ETL package to load the fact and dimensions from oracle datawarehouse to SQL server.
 * Use microsoft data migration assistant for oracle tool to migrate the data mart from Oracle to SQL server
 
-Option 1 was going to take longer to implement given that it involved actual development effort. Option 2 seemed viable, but the only problem for me was, it's a new tool I had not used before therefore i needed to learn how to use it, experiment before i could use it for the POC, I didnt have that time!.
+Option 1 was going to take longer to implement, it would involve actual development effort. Option 2 seemed viable, but the only problem for me was, it's a new tool I had not used before. It meant I needed to learn how to use it, experiment with it before i could use it for the POC, I didnt have that time!.
